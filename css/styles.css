@@ -165,6 +165,7 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 80px;
     
 }
 
@@ -198,11 +199,68 @@ nav a:hover {
     height: 427px;
 }
 
+/* point table styles */
+
+.copa-point-table{
+    font-family: 'Poppins', sans-serif;
+    width: 1050px;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px #6C6C6C;
+
+
+}
+
+.table-div{
+    border-radius: 10px;
+}
+
+.point-table {
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+    
+  }
+
+.point-table , th, td {
+    border: 1px solid rgb(255, 86, 19);
+    color: #18191F;
+    border-collapse: collapse;
+  }
+
+.table-title{
+    margin-bottom: 0;
+    margin-left: 15px;
+    color: #2D25A0;
+}
+
+  /* macth styles */
+.match{
+
+    margin-top: 46px;
+    font-family: 'Poppins', sans-serif;
+    width: 1050px;
+    margin: auto; 
+}
+.match p{
+    color:#6C6C6C;;
+    font-weight: normal;
+    font-size: 16px;
+}
+.match h2{
+    color:#6C6C6C;;
+    
+}
+
+.match h5{
+    color: orangered;
+}
+
 /* footer styles */
 footer{
     width: 100%;
     text-align: center;
-    margin-top: 158px;
+    margin-top: 120px;
 }
 
 footer img{
@@ -349,6 +407,7 @@ footer img{
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        margin-bottom: 40px;
     }
 
     .left-highlights-banner{
@@ -370,6 +429,38 @@ footer img{
         width: 328px;
         height: 248px;
     }
+
+    /* point table styles */
+
+    .copa-point-table{
+        font-family: 'Poppins', sans-serif;
+        width:100%;
+        margin: auto;
+        box-shadow: 0 2px 5px #6C6C6C;
+        
+
+
+    }
+
+    .point-table{
+        margin-bottom: 20px;
+    }
+
+    .point-table , th, td {
+        border: 1px solid rgb(255, 86, 19);
+        color: #18191F;
+        border-collapse: collapse;
+    }
+
+    /* macth styles */
+    .match{
+        
+        margin-top: 46px;
+        font-family: 'Poppins', sans-serif;
+        width: 100%;
+        margin: auto; 
+    }
+
 
     footer img {
         width: 100%;
